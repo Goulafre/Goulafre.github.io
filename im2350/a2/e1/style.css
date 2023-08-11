@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --col01: rgba(43, 2, 2, 0.856);
+    --col02: rgb(98, 0, 0);
+    --col03: rgb(160, 88, 37);
+    --col04: rgb(235, 115, 50);
+    --border: solid 3px var(--col03);
+}
+
+
+
+
+.e1wrap{
+    background-color: var(--col03); 
+    width: 99vh;
+    height: 177vh;
+    margin: 0 auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom, var(--col02, var(--col01)));
+    justify-content: space-between;
+    
+    
+}
+
+
+
+
+#layer2{
+
+flex-direction: row;
+display: flex;
+justify-content: space-around;
+
+
+
+
+}
+
+#layer3{
+    
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+  
+    }
+
+
+
+
+.panels{
+    background-color: var(--col02);
+    width: 6rem;
+    height: 12rem;
+    
+
+}
+
+.panels2{
+    background-color: var(--col02);
+    width: 6rem;
+    height: 12rem;
+    position:relative;
+    
+
+}
+
+#layer4{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+    
+   
+    
+    
+    
+}
+.bigbox{
+    background-color: var(--col02);
+    width: 40rem;
+    height: 27rem;
+    
+    
+
+    
+}
