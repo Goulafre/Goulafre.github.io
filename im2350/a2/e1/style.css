@@ -11,8 +11,11 @@
     --border: solid 3px var(--col03);
 }
 
-
-
+/* i used this colour scheme as i felt that the rustic, orange 
+sunset fit with the content in the reference picture. It suggests
+an almost post-apocolyptic aethetic, so i decided to make the 
+colours warm, rustic and 'bloody.'
+*/
 
 .e1wrap{
     background-color: var(--col03); 
@@ -23,7 +26,8 @@
     display: flex;
     flex-direction: column;
     background-image: linear-gradient(to bottom, var(--col02, var(--col01)));
-    justify-content: space-between;
+    justify-content: space-around;
+    
     
     
 }
@@ -31,25 +35,29 @@
 
 
 
-#layer2{
-
-flex-direction: row;
-display: flex;
-justify-content: space-around;
-
-
-
-
+#layer{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 1rem;
+    gap: 5px;
+    
+    
+    
+   
 }
+
+
+
 
 #layer3{
     
-    flex-direction: row;
-    display: flex;
-    justify-content: space-evenly;
-    
-    
+   margin-top: 20%; 
   
+
+   
+
     }
 
 
@@ -58,7 +66,9 @@ justify-content: space-around;
 .panels{
     background-color: var(--col02);
     width: 6rem;
-    height: 12rem;
+    height: 15rem;
+    
+    
     
 
 }
@@ -66,7 +76,7 @@ justify-content: space-around;
 .panels2{
     background-color: var(--col02);
     width: 6rem;
-    height: 12rem;
+    height: 15rem;
     
     
 
