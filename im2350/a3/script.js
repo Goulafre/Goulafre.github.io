@@ -22,7 +22,7 @@ function updateValue(e) {
 
   function updateValue2(e) {
     console.log(e.target.value)
-    document.body.style.backgroundColor = "color-mix( in srgb, #C1fa5e " + e.target.value + "%, #34c9eb)";
+    document.body.style.backgroundColor = "color-mix( in srgb, #34c9eb " + e.target.value + "%, #C1fa5e)";
     
     if (e.target.value > 25 && e.target.value <40) {
       document.getElementById("poem2").style.opacity = '1'
