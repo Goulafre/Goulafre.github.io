@@ -7,10 +7,10 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>gulliver's boilerplate</title>
+        <title>poet tree</title>
 
         <link rel="stylesheet" href="style.css">
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
 
 
     </head>
@@ -18,13 +18,62 @@
     <body>
 
         <div>
-            <input type="range" min="0" max="255" value="0" onmousemove="func_2(this.value)" /><br />
+            <form oninput="amount.value=rangeInput.value">
+            <input type="range" id="rangeInput" name="rangeInput" min="0" max="100" value="contast" list="markers"  onmousemove="func_2(this.value)" />
+            <datalist id="markers">
+                <option value="0"></option>
+                <option value="25" ></option>
+                <option value="70"></option>
+                <option value="75"></option>
+                <option value="100" style="left: 90%"></option>
+              </datalist>
+
+
+              <video id="background-video" autoplay loop muted>
+                <source src="vid/falling_leaves.mp4" type="video/mp4">
+                </video>
+            
+
+              <div id="poem1" class="poem1">
+                <img id= "poem1" src="img/2x/Poem1@2x.png"  height="100%" width="100%">
+            </div>
+            <div id="poem3" class="poem3">
+                <img id= "poem3" src="img/2x/Poem3@2x.png"  height="100%" width="100%">
+            </div>
+            <div id="poem5" class="poem5">
+                <img id= "poem5" src="img/2x/Poem5@2x.png"  height="100%" width="100%">
+            </div>
+
+
+
             <div class="image-container"><img id="img1" src="img/2x/tree_primal_white@2x.png" width="100%" /></div>
-            <input type="range" min="0" max="255" value="0" onmousemove="func_3(this.value)" /><br />
+            
+
+            <div id="poem2" class="poem2">
+                <img id= "poem2" src="img/2x/Poem2@2x.png"  height="100%" width="100%">
+            </div>
+            <div id="poem4" class="poem4">
+                <img id= "poem4" src="img/2x/Poem4@2x.png"  height="100%" width="100%">
+            </div>
+
+
+            <input type="range" id="rangeInput2" name="rangeInput2" min="0" max="100" value="0"   onmousemove="func_3(this.value)" />
             <span id="output">0, 0, 0</span>
+           
+                <output name="amount" for="rangeInput">0</output>
+              </div>
+            </form>
+
+           
+
+    
+         
+        
+
         </div>
 
-          
+     
+
 
     </body>
 
