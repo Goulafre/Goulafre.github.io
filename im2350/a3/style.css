@@ -21,7 +21,35 @@ h1{
 }
 
 
-#background-video {
+#background-video1 {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: .3;
+  transition: opacity 0.3s ease-out;
+}
+
+#background-video2 {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: .3;
+  transition: opacity 0.3s ease-out;
+}
+
+#background-video3 {
   width: 100vw;
   height: 100vh;
   object-fit: cover;
@@ -117,7 +145,6 @@ option {
         display: block;
         padding-top: 1rem;
         padding-left: 1rem;
-        padding-bottom: 200px;
         position: absolute;
         opacity: 1;
         transition: opacity 0.3s ease-out;
