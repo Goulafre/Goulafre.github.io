@@ -120,11 +120,11 @@ input[type="range"]:hover {
   }
 
   input[type="range"]::-moz-slider-thumb {
-    width: 35px;
-    height: 35px;
+    width: 5rem;
+    height: 5rem;
     border: 0;
     background: url('img/2x/handle@2x.png') no-repeat;
-    background-size: 35px 35px;
+    background-size: 5rem 5rem;
     cursor: pointer;
   }
 
