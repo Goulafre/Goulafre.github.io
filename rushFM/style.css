@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root{
+    --col01: rgb(0,0,0,);
+    --col02: rgb(80,80,80);
+    --col03: rgb(160,160,160);
+    --col04: rgb(240,240,240);
+    --border: solid 1rem var(--col03);
+}
+
+h1{
+    color: var(--col02);
+    border: var(--border);
+    border-style: dashed dotted;
+    border-radius: 40rem;
+    height: 10rem;
+    background-image: radial-gradient( red, blue);
+}
+
+body{
+    background-image: linear-gradient(90deg, var(--col02), blue);
+    
+}
+
